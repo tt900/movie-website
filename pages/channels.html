@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>القنوات المباشرة - CineHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">C</span>
+          <div>
+            <strong>CineHub</strong>
+            <small>Movies & Live</small>
+          </div>
+        </div>
+
+        <nav class="main-nav">
+          <a href="../index.html">الرئيسية</a>
+          <a href="movies.html">الأفلام</a>
+          <a href="#" class="active">القنوات</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">القنوات</span>
+          <h2>البث المباشر العربي</h2>
+        </div>
+      </div>
+
+      <div class="cards-grid channels-grid" id="channelsGrid"></div>
+    </main>
+
+    <script src="../js/main.js"></script>
+    <script>
+      renderChannels();
+    </script>
+  </body>
+</html>
